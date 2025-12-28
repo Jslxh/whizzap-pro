@@ -28,28 +28,28 @@ whizzap-pro/
 ├── .gitignore
 │
 ├── assets/
-│ ├── animations.css
-│ └── style.css
+│   ├── animations.css
+│   └── style.css
 │
 ├── core/
-│ ├── init.py
-│ ├── contacts_manager.py
-│ ├── faiss_engine.py
-│ ├── logger.py
-│ ├── message_builder.py
-│ ├── role_extractor.py
-│ └── whatsapp_link.py
+│   ├── __init__.py
+│   ├── contacts_manager.py
+│   ├── faiss_engine.py
+│   ├── logger.py
+│   ├── message_builder.py
+│   ├── role_extractor.py
+│   └── whatsapp_link.py
 │
 ├── ui/
-│ ├── init.py
-│ ├── composer.py
-│ ├── contacts.py
-│ └── logs.py
+│   ├── __init__.py
+│   ├── composer.py
+│   ├── contacts.py
+│   └── logs.py
 │
 └── data/
-├── contacts.csv
-├── faiss.index
-└── message_logs.csv
+    ├── contacts.csv
+    ├── faiss.index
+    └── message_logs.csv
 
 
 ## How It Works
@@ -76,6 +76,8 @@ streamlit run app.py
 ### Example Usage
 
 ```bash
+Instruction:
+
 Inform correspondent to organize career guidance program
 
 Generated Message:
@@ -88,8 +90,3 @@ Regards,
 Whizzap
 
 ```
-
-
-
-
-
