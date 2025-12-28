@@ -20,6 +20,7 @@ This version is designed with interview readiness, explainability, and scalabili
 
 ## Project Structure
 
+```text
 whizzap-pro/
 │
 ├── app.py
@@ -50,7 +51,7 @@ whizzap-pro/
     ├── contacts.csv
     ├── faiss.index
     └── message_logs.csv
-
+```
 
 ## How It Works
 
