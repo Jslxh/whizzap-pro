@@ -20,6 +20,36 @@ This version is designed with interview readiness, explainability, and scalabili
 
 ## Project Structure
 
+whizzap-pro/
+│
+├── app.py
+├── build_faiss_index.py
+├── requirements.txt
+├── .gitignore
+│
+├── assets/
+│ ├── animations.css
+│ └── style.css
+│
+├── core/
+│ ├── init.py
+│ ├── contacts_manager.py
+│ ├── faiss_engine.py
+│ ├── logger.py
+│ ├── message_builder.py
+│ ├── role_extractor.py
+│ └── whatsapp_link.py
+│
+├── ui/
+│ ├── init.py
+│ ├── composer.py
+│ ├── contacts.py
+│ └── logs.py
+│
+└── data/
+├── contacts.csv
+├── faiss.index
+└── message_logs.csv
 
 
 ## How It Works
@@ -42,5 +72,24 @@ python build_faiss_index.py
 
 streamlit run app.py
 ```
+
+### Example Usage
+
+```bash
+Inform correspondent to organize career guidance program
+
+Generated Message:
+
+Hello <Name>,
+
+This is to request you to kindly proceed with organizing career guidance program.
+
+Regards,
+Whizzap
+
+```
+
+
+
 
 
