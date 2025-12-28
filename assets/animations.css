@@ -1,0 +1,38 @@
+/* -------- Section entrance animation -------- */
+@keyframes slideFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-section {
+  animation: slideFadeIn 0.7s ease forwards;
+}
+
+/* -------- Button pulse on hover -------- */
+@keyframes softPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(90, 120, 255, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 0 8px rgba(90, 120, 255, 0);
+  }
+}
+
+.stButton > button:hover {
+  animation: softPulse 0.6s;
+}
+
+/* -------- Message preview emphasis -------- */
+.message-preview textarea {
+  transition: all 0.25s ease;
+}
+
+.message-preview textarea:hover {
+  box-shadow: 0 0 0 2px rgba(120, 140, 255, 0.35);
+}
